@@ -43,7 +43,7 @@ class IlhaProibida:
 
         """
         # 1) preparar baralho de tesouros
-        self.baralho_tesouros = [CartaTesouro(face=EnumTesouros[f]) for f in EnumTesouros.list_names() * 5]
+        self.baralho_tesouros = [CartaTesouro(face=getattr(EnumTesouros, f)) for f in EnumTesouros.list_names() * 5]
         self.baralho_tesouros += [CartaFugaHelicoptero(face=EnumCartas.HELICOPTERO) for _ in range(0, 3)]
         self.baralho_tesouros += [CartaEnchente(face=EnumCartas.ENCHENTE) for _ in range(0, 3)]
         self.baralho_tesouros += [CartaSacoDeAreia(face=EnumCartas.SACO_DE_AREIA) for _ in range(0, 2)]

@@ -9,4 +9,5 @@ Modulos
    terrenos
    cartas
    singleton
+   canvas
 
