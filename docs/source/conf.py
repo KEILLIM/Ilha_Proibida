@@ -20,7 +20,8 @@ release = '0.5'
 
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    'sphinx_markdown_builder'
 ]
 
 templates_path = ['_templates']
