@@ -1,7 +1,7 @@
 # __authors__ Keila, Felipe, Leonardo, Pedro 
 """Página de entrada do jogo Ilha Proibida.
 
-LOG - https://bit.ly/Dev_Agile_23
+Kanban - https://workflowy.com/s/desenvolvimento-agil/r7b3ywIA9AdE4e21#/fa1fee833e99
 
 EQUIPE Terra 
 .. codeauthor:: Keila Lima de Oliveira <keila90.if@gmail.com>
@@ -11,8 +11,7 @@ EQUIPE Terra
 
 Changelog
 ---------
-.. versionadded::    23.11
-    Divisão de equipes (07).
+.. versionadded::    2.0
 
 |   **Open Source Notification:** This file is part of open source program **Ilha Proibida**
 |   **Copyright © 2023  Carlo Oliveira** <carlo@nce.ufrj.br>,
@@ -125,3 +124,7 @@ if __name__ == "__main__":
     print("Cartas", "-"*20)
     for i in ilha.baralho_tesouros:
         print(i.face.name)
+
+    print("Cartas Alagamento", "-"*20)
+    for i in ilha.baralho_alagamento:
+        print(i.terreno.tipo_terreno.name)
