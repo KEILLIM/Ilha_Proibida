@@ -2,7 +2,7 @@
 Baseado na implementação: https://github.com/Finn-Ko/IlhaProibidaPage/blob/main/page/pySrc/canvas.py
 """
 
-from browser import document, window, html
+#from browser import document, window, html
 
 from terrenos import Terreno
 from estados import EnumEstadosTerrenos
